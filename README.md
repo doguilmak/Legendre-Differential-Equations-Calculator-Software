@@ -7,6 +7,7 @@ The aim of the project, as can be understood from the title, is to developing an
 
 ## Methodology
 
+![Screenshot](unnormalized.jpg)
 
 In mathematics, the associated legendre polynomials are the canonical solutions of the general Legendre equation.
 
@@ -29,7 +30,7 @@ Before running the code make sure that you have these libraries:
 
 ## File Conversions
 
-Before doing these operations, **you need to go to the location on command prompt where the Calculating_Pnm_excel.ui and Calculating_Pnm_excel.py files are located.** These procedures were done by myself. Those who are curious about how it is made or who want to learn can try this section on their own.
+Before doing these operations, **you need to go to the location on command prompt where the Calculating_Pnm_excel.ui and Calculating_Pnm_excel.py files are located.** These procedures were done by myself. You are free to make .exe file from .py file. Those who are curious about how it is made or who want to learn can try this section on their own.
 
 ### .ui to .py
 
