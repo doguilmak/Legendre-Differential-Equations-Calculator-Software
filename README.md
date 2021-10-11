@@ -7,13 +7,19 @@ The aim of the project, as can be understood from the title, is to developing an
 
 ## Methodology
 
-![Screenshot](unnormalized.jpg)
+### Unnormalized function
+
+![Unnormalized function](unnormalized.jpg)
+
+### Normalized function
+
+![Normalized function](normalized.png)
 
 In mathematics, the associated legendre polynomials are the canonical solutions of the general Legendre equation.
 
 This equation has nonzero solutions that are nonsingular on (−1, 1) only if n and m are integers with 0 ≤ m ≤ n, or with trivially equivalent negative values. When in addition m is even, the function is a polynomial. When m is zero and n integer, these functions are identical to the Legendre polynomials.
 
-In this part of work we are going to calculate the values of the Pnm normalized and unnormalized values. ***normalized.png*** is the mathematical equation of normalized legendre equation and ***unnormalized.jpg***  is the mathematical equation of unnormalized legendre equation. **Normalized values  were calculated in project.**
+In this part of work we are going to calculate the values of the Pnm normalized values. ***normalized.png*** is the mathematical equation of normalized legendre equation and ***unnormalized.jpg***  is the mathematical equation of unnormalized legendre equation. **Normalized values  were calculated in project.**
 
 ## Analysis
 
