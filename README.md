@@ -3,7 +3,7 @@
 
 ## Statement
 
-The aim of the project, as can be understood from the title, is to developing an application that can calculate ***legendre differential equations with Python 3.7*** and save them in Excel Table. These operations were carried out through the ***PyQt5*** library and the ***Designer*** application.
+The aim of the project, as can be understood from the title, is to developing an application that can calculate ***legendre differential equations with Python 3.7*** and save them in Excel Table. These operations were carried out through the ***PyQt5*** library and the ***Designer*** application. In addition, you can find variations of the program (with graph, without graph) in the branch.
 
 ## Methodology
 
