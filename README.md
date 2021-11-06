@@ -21,6 +21,10 @@ This equation has nonzero solutions that are nonsingular on (−1, 1) only if n 
 
 In this part of work we are going to calculate the values of the Pnm normalized values. ***normalized.png*** is the mathematical equation of normalized legendre equation and ***unnormalized.jpg***  is the mathematical equation of unnormalized legendre equation. **Normalized values  were calculated in project.**
 
+**UI Overview:**
+
+![UI](UI.jpg)
+
 ## Analysis
 
 You can examine the excel output, where **n and m values ​​are 10**, on the **output.xlsx** file. The same output is also shown in the application interface. In order for it to be saved as Excel as optional, it must first be written in the relevant field, indicating the name of the file. (for example: '***C:\Users\User\Desktop\output.xlsx***')
