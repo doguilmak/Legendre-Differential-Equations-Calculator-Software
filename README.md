@@ -1,59 +1,67 @@
 
-#  Developing Application that Calculates Legendre Differential Equations and Can Save to Excel Table with Python 
+<h1 align=center><font size = 5>Building Software to Calculate Legendre Differential Equations</font></h1>
 
-## Statement
+<img  src="https://www.generic-mapping-tools.org/remote-datasets/_images/GMT_geoid.jpg"  alt="generic-mapping-tools.org">
 
-The aim of the project, as can be understood from the title, is to developing an application that can calculate ***legendre differential equations with Python 3.7*** and save them in Excel Table. These operations were carried out through the ***PyQt5*** library and the ***Designer*** application. In addition, you can find variations of the program (with graph, without graph) in the branch.
+<small>Picture Source:<a  href="https://www.generic-mapping-tools.org/remote-datasets/"> Wine Generic Mapping Tools</a></small>
 
-## Methodology
+<br>
 
-### Unnormalized function
+<h2>Statement</h2>
 
-![Unnormalized function](unnormalized.jpg)
+<p>The aim of the project, as can be understood from the title, is to developing an application that can calculate <i>legendre differential equations with Python 3.7</i> and save them in <i>excel table</i>. These operations were carried out through the <i>PyQt5</i> library and the <i>Designer</i> application. In addition, you can find variations of the program (with graph, without graph) in the branch.</p>
 
-### Normalized function
+<h2>Methodology</h2>
 
-![Normalized function](normalized.png)
+<h3>Unnormalized function</h3>
 
-In mathematics, the associated legendre polynomials are the canonical solutions of the general Legendre equation.
+$$P_{nm}(t) = 2^{-m} \cdot (1-t^{2})^{\frac{m}{2}} \cdot \sum_{k=0}^{r} (-1)^{k} \cdot \frac{(2n - 2k)! \cdot t^{n-m-2k}}{k!(n-k)!(n-m-2k)!}$$
 
-This equation has nonzero solutions that are nonsingular on (−1, 1) only if n and m are integers with 0 ≤ m ≤ n, or with trivially equivalent negative values. When in addition m is even, the function is a polynomial. When m is zero and n integer, these functions are identical to the Legendre polynomials.
+<br>
 
-In this part of work we are going to calculate the values of the Pnm normalized values. ***normalized.png*** is the mathematical equation of normalized legendre equation and ***unnormalized.jpg***  is the mathematical equation of unnormalized legendre equation. **Normalized values  were calculated in project.**
+<h3>Normalized function</h3>
+
+$$P_{nm}(t) = 2^{-m} \cdot (1-t^{2})^{\frac{m}{2}} \cdot \sum_{k=0}^{r} (-1)^{k} \cdot \frac{(2n - 2k)! \cdot t^{n-m-2k}}{k!(n-k)!(n-m-2k)!} \cdot \sqrt{\frac{2^{2(n+1)} \cdot (n-m)!}{(n+m)!}}$$
+
+<p>In mathematics, the associated legendre polynomials are the canonical solutions of the general <i>legendre equation</i>.</p>
+
+<p>This equation has nonzero solutions that are nonsingular on <i>(−1, 1)</i> only if n and m are integers with <i>0≤m≤n</i>, or with trivially equivalent negative values. When in addition <i>m</i> is even, the function is a <i>polynomial</i>. When <i>m</i> is zero and n integer, these functions are identical to the <i>legendre polynomials</i>.</p>
+
+In this part of work we are going to calculate the values of the $P_{nm}$ normalized values. <i>normalized.png</i> is the mathematical equation of normalized legendre equation and <i>unnormalized.jpg</i>  is the mathematical equation of <i>unnormalized legendre equation</i>. <b>Normalized values  were calculated in project.</b>
 
 **UI Overview:**
 
 ![UI](UI.jpg)
 
-## Analysis
+<br>
 
-You can examine the excel output, where **n and m values ​​are 10**, on the **output.xlsx** file. The same output is also shown in the application interface. In order for it to be saved as Excel as optional, it must first be written in the relevant field, indicating the name of the file. (for example: '***C:\Users\User\Desktop\output.xlsx***')
+<h2>Analysis</h2>
 
-## How to Run Code
+<p>You can examine the excel output, where <i>n</i> and <i>m</i> values ​​are <i>10</i>, on the <i>output.xlsx</i> file. The same output is also shown in the application interface. In order for it to be saved as Excel as optional, it must first be written in the relevant field, indicating the name of the file. (for example: '<i>C:\Users\User\Desktop\output.xlsx</i>')</p>
 
-Before running the code make sure that you have these libraries:
+<br>
 
- - PyQt5
- - numpy
- - math
- - pandas
+<h2>File Conversions</h2>
 
-## File Conversions
+<p>Before doing these operations, <b>you need to go to the location on command prompt where the Calculating_Pnm_excel.ui and <i>Calculating_Pnm_excel.py</i> files are located.</b> These procedures were done by myself. You are free to make <code>.exe</code> file from <code>.py</code> file. Those who are curious about how it is made or who want to learn can try this section on their own.</p>
 
-Before doing these operations, **you need to go to the location on command prompt where the Calculating_Pnm_excel.ui and Calculating_Pnm_excel.py files are located.** These procedures were done by myself. You are free to make .exe file from .py file. Those who are curious about how it is made or who want to learn can try this section on their own.
-
-### .ui to .py
+<h3>.ui to .py</h3>
 
     python -m PyQt5.uic.pyuic -x Calculating_Pnm_excel.ui -o Calculating_Pnm_excel.py
 
-### .py to .exe
+<br>
+
+<h3>.py to .exe</h3>
 
     pyinstaller.exe --onefile --windowed --icon=app.ico Calculating_Pnm_excel.py
 
-## Contact Me
+<br>
 
-If you have something to say to me please contact me: 
+<h2>Contact Me</h2>
 
- - Twitter: [Doguilmak](https://twitter.com/Doguilmak)  
- - Mail address: doguilmak@gmail.com
- 
+<p>If you have something to say to me please contact me:</p> 
+
+<ul>
+	<li>Twitter: <a  href="https://twitter.com/Doguilmak">Doguilmak</a></li>
+	<li>Mail address: doguilmak@gmail.com</li>
+</ul>
