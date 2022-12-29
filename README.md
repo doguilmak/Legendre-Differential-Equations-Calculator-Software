@@ -25,13 +25,13 @@ $$P_{nm}(t) = 2^{-m} \cdot (1-t^{2})^{\frac{m}{2}} \cdot \sum_{k=0}^{r} (-1)^{k}
 
 <br>
 
-<p>In mathematics, the associated legendre polynomials are the canonical solutions of the general <i>legendre equation</i>.</p>
-
-<p>This equation has nonzero solutions that are nonsingular on <i>(−1, 1)</i> only if n and m are integers with <i>0≤m≤n</i>, or with trivially equivalent negative values. When in addition <i>m</i> is even, the function is a <i>polynomial</i>. When <i>m</i> is zero and n integer, these functions are identical to the <i>legendre polynomials</i>.</p>
+<p>In mathematics, the associated legendre polynomials are the canonical solutions of the general <i>legendre equation</i>. This equation has nonzero solutions that are nonsingular on <i>(−1, 1)</i> only if n and m are integers with <i>0≤m≤n</i>, or with trivially equivalent negative values. When in addition <i>m</i> is even, the function is a <i>polynomial</i>. When <i>m</i> is zero and n integer, these functions are identical to the <i>legendre polynomials</i>.</p>
 
 In this part of work we are going to calculate the values of the $P_{nm}$ normalized values. <i>normalized.png</i> is the mathematical equation of normalized legendre equation and <i>unnormalized.jpg</i>  is the mathematical equation of <i>unnormalized legendre equation</i>. <b>Normalized values  were calculated in project.</b>
 
-**UI Overview:**
+<br>
+
+<h2>UI Overview:</h2>
 
 ![UI](UI.jpg)
 
