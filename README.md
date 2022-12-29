@@ -45,7 +45,7 @@ In this part of work we are going to calculate the values of the $P_{nm}$ normal
 
 <h2>File Conversions</h2>
 
-<p>Before doing these operations, <b>you need to go to the location on command prompt where the Calculating_Pnm_excel.ui and <i>Calculating_Pnm_excel.py</i> files are located.</b> These procedures were done by myself. You are free to make <code>.exe</code> file from <code>.py</code> file. Those who are curious about how it is made or who want to learn can try this section on their own.</p>
+<p>Before doing these operations, <b>you need to go to the location on command prompt where the <i>Calculating_Pnm_excel.ui</i> and <i>Calculating_Pnm_excel.py</i> files are located.</b> These procedures were done by myself. You are free to make <code>.exe</code> file from <code>.py</code> file. Those who are curious about how it is made or who want to learn can try this section on their own.</p>
 
 <h3>.ui to .py</h3>
 
