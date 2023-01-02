@@ -34,7 +34,7 @@ In this part of work we are going to calculate the values of the $P_{nm}$ normal
 <h2>UI Overview:</h2>
 
 <div align="center">
-	<img width=500  height=700 src="UI.jpg">
+	<img width=600  height=750 src="UI.jpg">
 </div>
 
 <br>
