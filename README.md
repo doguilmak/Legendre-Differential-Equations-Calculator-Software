@@ -3,7 +3,7 @@
 
 <img  src="https://www.generic-mapping-tools.org/remote-datasets/_images/GMT_geoid.jpg"  alt="generic-mapping-tools.org">
 
-<small>Picture Source:<a  href="https://www.generic-mapping-tools.org/remote-datasets/"> Wine Generic Mapping Tools</a></small>
+<small>Picture Source: <a  href="https://www.generic-mapping-tools.org/remote-datasets/">Generic Mapping Tools</a></small>
 
 <br>
 
