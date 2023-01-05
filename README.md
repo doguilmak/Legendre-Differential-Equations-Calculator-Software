@@ -11,6 +11,8 @@
 
 <p>The aim of the project, as can be understood from the title, is to developing an application that can calculate <i>legendre differential equations with Python 3.7</i> and save them in <i>excel table</i>. These operations were carried out through the <i>PyQt5</i> library and the <i>Designer</i> application. In addition, you can find variations of the program (with graph, without graph) in the branch.</p>
 
+<br>
+
 <h2>Methodology</h2>
 
 <h3>Unnormalized function</h3>
